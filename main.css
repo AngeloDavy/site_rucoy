@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f8f8;
+}
+
+header {
+    background-color: greenyellow;
+}
+
+header .containers nav,
+section .containers{
+    justify-content: space-around;
+    align-items: center;    
+    display: flex;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 36px;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+}
+
+header nav li a {
+    text-decoration: none;
+    font-size: 50px;
+    padding-left: 16px;
+}
+
+section .containers {
+    align-items: flex-start;
+    background-color: #f0f8f8;
+}
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-family: 'Anton', sans-serif;
+}
+
+section {
+    color: #182C61;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section .download img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+section .containers h2{
+    justify-content: center;
+    align-items: center;    
+    display: flex;
+}
+
+section .download {
+    justify-content: center;
+    align-items: center;    
+    display: flex;
+}
+
+section #corpo {
+    padding-right: 20px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182C61;
+}
+
+footer {
+    background-color: rgb(38, 39, 35);
+    color: rgb(255, 255, 255);
+    padding: 16px 0;
+}
+
+
+
+
